@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:10vh;
+    display:flex;
+    justify-content:center;
+    align-items:top;
+    background:rgba(19, 63, 150, 0.438);
+}
+.box{
+    height:30px;
+    display:flex;
+    cursor:pointer;
+    padding:10px 15px;
+    background:rgb(228, 225, 225);
+    border-radius:30px;
+    align-items:center;
+    box-shadow:0 10px 25px rgb(108, 108, 117);
+    transform: translate(150px, 15px);
+}
+.box:hover input{
+    width:400px;
+}
+.box input{
+    width:0;
+    outline:none;
+    border:none;
+    font-weight:500;
+    transition:0.99s;
+    background:transparent;   
+}
+

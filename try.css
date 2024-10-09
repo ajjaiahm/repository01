@@ -1,0 +1,51 @@
+
+body{display: flex; align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5; min-height: 100vh;
+background-color: #f3f3f3;  flex-direction: column ; margin: 1px ;}
+
+.main{
+    background-color:#fff; box-shadow: 0 0 30px rgba(0, 0, 0,0.3);
+    padding:10px 20px; transition:ease-in-out;
+     transform: 0.4s; width:  500px; text-align: center;
+}
+h1 {color: #4caf50;
+}
+label{display:block; width: 100px; margin: top 10px;
+    margin-bottom: 5px; text-shadow: #4caf50 ;
+    text-align: center;font-weight: bolder;
+    text-shadow: 0px 1px;}
+
+    input {display: block; width :80%; margin-bottom: 15px;
+    padding: 9px; box-sizing:border-box;
+    border-radius: 5px;
+    text-shadow: 0px 1px;}
+
+    
+    #pass{padding-top: 10px ;}
+#bt{border-radius: 8px; padding: 14; margin-top: 14;
+     margin-bottom: 14; color:#fafaf2;
+     cursor: pointer;background-color: #4caf50;
+     width: 70%; font-size: 16px;
+      font-stretch:narrower; text-shadow: 1px 1px #fafaf2;}
+
+#sec{background-color:rgb(189, 120, 252); 
+    color: rgb(248, 250, 250); padding: 5px; width :20%;
+    margin-left: 18px;margin-bottom: 10px;
+    font-size: 12; text-shadow:0px 1px}
+/*.ww{ display: flex;  
+    justify-content: center; align-items: center;}*/
+
+
+/*#mode{padding: 20px; margin-left: 160px; 
+    margin-bottom: 0px; width:20% ;font-size: 10px;
+    position: relative; transition-duration: 0.5s;
+}*/
+body {padding: 25px; background-color: white;
+color:black;font-size:25px}
+
+.mode{background-color: black;color: white;}
+
+#dm button {position: absolute;
+     right: 12; transform: translateX(-10%); top: 10%;}  
